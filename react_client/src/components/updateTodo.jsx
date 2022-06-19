@@ -37,21 +37,11 @@ export function UpdateTodo({ _id, handleClose, handleEdited }) {
 			<label htmlFor='title' className='label'>
 				Title
 			</label>
-			<input
-				type='text'
-				name='title'
-				className='input'
-				onChange={handleChange}
-			/>
+			<input type='text' name='title' className='input' onChange={handleChange} />
 			<label htmlFor='description' className='label'>
 				Description
 			</label>
-			<input
-				type='text'
-				name='description'
-				className='input'
-				onChange={handleChange}
-			/>
+			<input type='text' name='description' className='input' onChange={handleChange} />
 			<button type='submit' className='button'>
 				Submit
 			</button>

@@ -40,11 +40,7 @@ export function CreateTodo() {
 			</Link>
 
 			<section className='contents'>
-				<form
-					onSubmit={handleSubmit}
-					className='form-container'
-					noValidate
-				>
+				<form onSubmit={handleSubmit} className='form-container' noValidate>
 					<label className='label' htmlFor='title'>
 						Title
 					</label>

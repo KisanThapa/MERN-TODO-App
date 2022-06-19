@@ -73,11 +73,7 @@ export function ShowTodoList() {
 				<h1>TODO</h1>
 				<ul className='list-container'>
 					{todo.map((data) => (
-						<TodoCard
-							data={data}
-							handleEdit={handleEdit}
-							handleDelete={handleDelete}
-						/>
+						<TodoCard data={data} handleEdit={handleEdit} handleDelete={handleDelete} />
 					))}
 				</ul>
 			</section>
@@ -88,11 +84,7 @@ export function ShowTodoList() {
 							&times;
 						</p>
 
-						<UpdateTodo
-							_id={id}
-							handleClose={handleClose}
-							handleUpdate={handleUpdate}
-						/>
+						<UpdateTodo _id={id} handleClose={handleClose} handleUpdate={handleUpdate} />
 					</div>
 				</section>
 			) : (
